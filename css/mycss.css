@@ -1,0 +1,128 @@
+
+/*Estructura de la pagina
+Por: Giraldo Anderson Cuastumal Cuastumal.
+Cargo: Estudiante.
+Universidad: Universidad de Antioquia.
+*/
+
+/*Definicion del cuerpo de la pagina*/
+body{
+    background-image: url('../img/fondo.png');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page{
+    width: 85%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    overflow: hidden;
+    background: whitesmoke;
+    box-shadow: 1px 1px 1px 1px #666665;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#Header{width: 100%;}
+
+/*Seccion de navegacion de la pagina pesataña calculadora e inicio*/
+nav{
+    float: right;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+}
+
+nav a{
+    background: #212157;
+    color: white;
+    margin: 25 px auto;
+    border-radius: 5px 10px 10px 20px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background: rgb(219, 217, 217);
+	color: black;
+	border-radius: 5%;
+    box-shadow: 7px 7px 15px #666665;    
+}
+
+
+/*Estructura del cuerpo de la pagina donde se encuentra el formulario*/
+.main{
+    clear: both;
+    width: 95%;
+    margin-left: 2%;
+    margin: 25 px auto;
+    border: solid 1px #a5a5a4;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 7px 7px 15px #666665;
+    border-radius: 5px 10px 10px 20px;
+}
+
+
+/* Seccion formulario de informacion */
+
+table p{
+    font-size: 0.9em;
+}
+table td{
+    width:50%;
+
+}
+table tr{
+    width:100%;
+
+}
+
+.lightBlueBg{
+    background: lightblue;
+    padding: 8px;
+}
+
+.anchoInput{
+    width: 94%;
+}
+.anchoSelect{
+    width: 95%;
+}
+
+#Boton{padding: 5px;}
+
+#Boton:hover{
+    background: blue;
+    color: azure;
+}
+
+
+/*seccion Pie de pagina */
+footer{
+    clear: both;
+    text-align: center;
+padding: 10px;}
+
+p{
+    font-size: 1.5em;
+}
+
+/*Tipo de letra*/
+
+h1{ text-align: center;
+    font-family: Monaco,Georgia,Times,serif;
+}
+h5{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 0.9em;
+
+}
+
+a{text-decoration: none;}
+
+.is-required:after{
+    content: "* ";
+    color: red;
+    margin-left: 3px;
+    font-weight: bold;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Semillero konecta 2021</title>
+		<meta name="aplication-name" content="Web">
+		<meta name="author" content="Anderson cuastumal">
+		<meta name="keywords" content="Formulario inicio, practica javascript">		
+		<!--css ayuda a organizar la estrutura o diseño del la pagina-->
+		<link rel="stylesheet" href="../CSS/mycss.css" type="text/css" />
+		<!--JS ayuda a validar datos ingresados-->
+		<script type="text/javascript" src="../java/myjsvalidar.js"></script>
+	</head>
+	
+	<body>
+    <div class="page">
+		<!--Encabezado de la pagina-->
+		<header>
+				<!--Agrega imagen de encabezado-->
+				<div> <img id="Header" src="../img/logokonecta.jpg"/></div>  
+				
+				<!--Agrega Seccion de navegacion pestaña inicion y calculadora-->
+				<nav class="topmenu">
+				
+					
+					<a href="inicio.html">Inicio</a>
+					<a href="calculadora.html">Calculadora</a>
+				
+				</nav>
+		</header>
+		<!--seccion donde se encuentra la informacion-->
+		<section class="main">
+			<div class="greybox">
+				<h2>Información de contacto:</h2>
+				<p>Agrege su información a continuación:</p>
+				<!--Se crea el formulario usando el metodo form-->
+				<form class="form-group" id="contact" action="" method="post" onsubmit="return configForm(this);" style="position: relative; z-index: 1;">
+					<!--Se crea dos columnas para organizar el formulario-->
+					<table class="datosPersonales">
+						<tr>
+							<td>
+								<p><label class="is-required">Número de identificación</label> </br>
+								<input type="text" name="identificacion" placeholder="Numero de identificación" class="anchoInput" required/></p>
+								<p><label class="is-required">Celular</label></br>
+								<input type="text" name="celular" placeholder="Celular" class="anchoInput" required/></p>
+								<p><label class="is-required">Área/Operación</label></br>
+								<input type="text" name="area" placeholder="Área/Operación" class="anchoInput" required/></p>
+								<p><label class="is-required">Si necesitamos contactarte telefonicamente, indicanos donde te encuentras? </label>
+								<select name="select" class="anchoSelect" required>
+									<option value="0">Si necesitamos contactarte telefonicamente, indicanos donde te encuentras?</option>
+									<option value="1">Nariño</option>
+									<option value="2">Antioquia</option>
+									<option value="3">Cauca</option>
+									<option value="4">Boyaca</option>
+									<option value="5">Valle dupar</option>
+								</select>
+							</td>
+							<td>
+								<p><label class="is-required">Nombres y Apellidos</label></br>
+								<input type="text" name="name" placeholder="Nombres y Apellidos" class="anchoInput" required/></p>
+								<p><label class="is-required">E-mail</label></br>
+								<input type="text" name="email" placeholder="E-mail" class="anchoInput" required/></p>
+								<p><label class="is-required">Cargo</label></br>
+								<input type="text" name="cargo" placeholder="Cargo" class="anchoInput" required/></p>
+								<p><label class="is-required">Horario en el que te podemos contactar</label></br>
+								<input type="text" name="horario" placeholder="Horario en el que te podemos contactar" class="anchoInput" required/></p>
+															
+							</td>
+						</p>
+						</tr>	
+					</table>
+					<!--definicion de botones enviar y borrar-->
+					<p><input type="submit" value="Enviar" class="button" /><input type="reset" value="Borrar" class="button" /></p>
+				</form>
+				
+				<div class="cleaner"></div>	
+			</div>
+		</section>
+       <!--Pie de pagina-->
+		<footer>
+			
+			<h5>© 2021</br>
+			Semillero de Reactjs Konecta</br>
+			Giraldo Anderson Cuastumal Cuastumal</h5></br>
+		</footer>
+    </div>
+    <div class="footer2"></div>
+  </body>
+</html>
+

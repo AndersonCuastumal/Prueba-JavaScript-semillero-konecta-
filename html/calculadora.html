@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+		<meta charset="utf-8">
+		<meta name="aplication-name" content="Web">
+		<meta name="author" content="Anderson cuastumal">
+		<meta name="keywords" content="Calculadora, practica javascript">
+		<!--JS valida las operaciones realizadas-->
+		<script type="text/javascript" src="../java/myjscalculadora.js"></script>
+		<!--CSS ayuda con la estructura de la calculadora-->
+		<link href="../css/mycsscalculadora.css"rel="stylesheet" type="text/css">
+		 <!--CSS ayuda con la estructura de la pagina-->
+		<link rel="stylesheet" href="../css/mycss.css" type="text/css" />
+		<title>Semillero konecta 2021</title>
+	</head>
+	
+	<body>
+
+
+		<div class="page">
+			
+			<div> <img id="Header" src="../img/logokonecta.jpg"/></div>  
+
+			<nav class="topmenu">
+				
+				<a href="inicio.html">Inicio</a>
+				<a href="calculadora.html">Calculadora</a>
+			</nav>
+		
+			<div class="main">
+                <div class="greybox">
+					<h1>CALCULADORA</h1>
+					<br>
+					<div><input id="operacion" type="text" readonly="true"></div>
+					<!--resultado-->
+					<input type="text" id="dato" readonly ></br></br>
+					<!--Se encuentran cada uno de los botones con sus operaciones o numeros corrcambondientes -->
+					<!--1ra fila -->
+					<button class="op ang" id="rad" value="Rad">Rad</button>
+					<button class="op ang" id="deg" value="Deg">Deg</button>
+					<button class="op camb1" id="factorial" value="!">x!</button>
+					<button class="op" id="(" value="(">(</button>
+					<button class="op" id=")" value=")">)</button>
+					<button class="op" id="%" value="%">%</button>
+					<button class="op" id="ac" value="AC">AC</button>
+					<br></br>
+					
+					<!--2da fila -->
+					<button class="op" id="inversas" value="Inv">Inv</button>
+					<button class="op camb" id="seno" value="sin(">sin</button>
+					<button class="op camb" id="lognatural" value="ln(">ln</button>
+					<button class="num" id="#7" value="7">7</button>
+					<button class="num" id="#8 " value="8">8</button>
+					<button class="num" id="#9" value="9">9</button>
+					<button class="op" id="/" value="÷">÷</button>
+					<br></br>
+				   
+					<!--3ra fila-->
+					<button class="op camb1" id="pi" value="π">π</button>
+					<button class="op camb" id="cos" value="cos(">cos</button>
+					<button class="op camb" id="logaritmo" value="log(">log</button>
+					<button class="num" id="#4" value="4">4</button>
+					<button class="num" id="#5" value="5">5</button>
+					<button class="num" id="#6" value="6">6</button>
+					<button class="op" id="multiplicacion" value="×">×</button>
+					<br></br>
+				   
+					<!--4ta fila -->
+					<button class="op camb1" id="euler" value="e">e</button>
+					<button class="op camb" id="tangente" value="tan(">tan</button>
+					<button class="op camb" id="sqrt" value="√(">√</button>
+					<button class="num" id="#1" value="1">1</button>
+					<button class="num" id="#2" value="2">2</button>
+					<button class="num" id="#3" value="3">3</button>
+					<button class="op" id="resta" value="-">−</button>
+					<br></br>
+					
+					<!--5ta fila -->
+					<button class="op camb" id="answer" value="Ans">Ans</button>
+					<button class="op camb1" id="exp" value="E(">EXP</button>
+					<button class="op camb" id="potencia" value="^(">x<sup>y</sup></button>
+					<button class="num" id="#0" value="0">0</button>
+					<button class="num" id="punto" value=".">.</button>
+					<button class="op_result" id="igual" value="=">=</button>
+					<button class="op" id="suma" value="+">+</button>
+                    <div class="cleaner"></div>	
+                </div>
+			</div>
+			
+			<footer>
+				
+				<h5>© 2021</br>
+				Semillero de Reactjs Konecta</br>
+				Giraldo Anderson Cuastumal Cuastumal</h5></br>
+			</footer>
+		</div>
+		<div class="footer2"></div>
+  	</body>
+</html>

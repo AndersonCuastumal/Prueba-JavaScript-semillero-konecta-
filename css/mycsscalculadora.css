@@ -1,0 +1,76 @@
+/*Estructura de diseño de la calculadora
+Por: Giraldo Anderson Cuastumal Cuastumal.
+Cargo: Estudiante.
+Universidad: Universidad de Antioquia.
+*/
+*{
+	/*border: 1px solid #000000;  /*borrar */
+    margin:0px;
+    font-family: 'Helvetica','Verdana','Monaco',sans-serif;
+    text-align: center;
+    }
+h1{
+    font-family: Monaco,Georgia,Times,serif;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 125, 209);
+    text-shadow: 1px 1px 2px black
+}
+h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 0.9em;
+
+}
+#operacion{
+    width: 515px;
+    height: 25px;
+    text-align: right;
+    border:0px;
+    font-size: 0.8em;
+    color: rgb(167, 170, 170);
+
+}
+#dato{
+    width: 515px;
+    height: 25px;
+    text-align: right;
+    border-radius: 5px;
+    border-color: rgb(73, 72, 72);
+    font-size: 1.2em;
+    color: rgb(85, 85, 85);
+}
+
+button{  
+    width: 70px;
+    height: 35px;
+    border-radius: 8px;  
+}
+
+
+
+.op{
+    background-color: rgb(196, 192, 192);
+}
+#deg{
+    color: rgb(167, 170, 170);
+}
+.op:hover{
+    background-color: rgb(107, 177, 224)
+}
+
+.num{
+    background-color: rgb(240, 235, 235);
+}
+.op_result{
+    background-color: rgb(16, 145, 231)
+}
+.op_result:hover{
+    background-color: rgb(120, 178, 218)
+}
+.num:hover{
+    background-color:  rgb(107, 177, 224)
+    
+}
+
+
